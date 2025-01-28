@@ -4,7 +4,7 @@
         const item = order.items[i];
         if (item.type === 'product') {
             totalPrice += item.price * item.quantity;
-        } else if (item.type === 'ervice') {
+        } else if (item.type === 'service') {
             totalPrice += item.price * item.duration;
         }
         if (order.discount > 0) {

@@ -2,13 +2,13 @@
     switch (employee.role) {
         case 'admin':
             return 'Administrator';
-        case 'anager':
+        case 'manager':
             return 'Manager';
         case 'developer':
             return 'Software Developer';
         case 'tester':
             return 'Software Tester';
-        case 'upport':
+        case 'support':
             return 'Support Specialist';
         default:
             return 'Unknown';
